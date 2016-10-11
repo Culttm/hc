@@ -1,0 +1,9 @@
+<h3>{{sectionTitle}}</h3>
+<hr>
+<ul class="list-group">
+  {{#each data.articles}}
+    <li class="list-group-item">
+      <a id="article-{{id}}" target="_blank" data-id="{{id}}" href="{{html_url}}">{{title}}</a>
+    </li>
+  {{/each}}
+</ul>
